@@ -50,7 +50,3 @@ The strategy identifies specific opponent behaviors to determine an optimal resp
 
 ## Ethical Stance
 This strategy prioritizes **maximizing points** while maintaining a nuanced approach to cooperation. It avoids blind trust or permanent hostility, ensuring a balanced and fair gameplay dynamic.
-
-## Recommended Tournament Approach
-Ideal for **tournaments with diverse opponent strategies**, as its adaptability allows it to thrive in unpredictable environments.
-
