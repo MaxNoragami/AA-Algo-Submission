@@ -1,18 +1,4 @@
 def strategy(my_history: list[int], opponent_history: list[int], rounds: int | None) -> int:
-    class itn(int):
-        def __new__(cls, value, text):
-            obj = super().__new__(cls, value)
-            obj.text = text
-            return obj
-
-    if not opponent_history:
-        return itn(1, "Welsh Dragon")
-
-    ally_names = ["Majestic Moss", "mcittkmims"]
-
-    if opponent_history and hasattr(opponent_history[0], "text") and opponent_history[0].text in ally_names:
-        return 1
-
     if not opponent_history:
         return 1
 
